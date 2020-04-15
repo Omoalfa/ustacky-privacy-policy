@@ -1,0 +1,171 @@
+body {
+    font-family: raleway;
+    background-color: #FBFBFB;
+    box-sizing: border-box;
+}
+img {
+    width: 120px;
+}
+#Dnav {
+    display: none;
+    padding: 2% 7%;
+    padding-bottom: 0;
+}
+#Mnav {
+    display: block;
+    padding: 2% 4%;
+    padding-bottom: 0;
+}
+#Mnav span {
+    background-color: #1DBF73;
+}
+#NavBar ul li {
+    display: inline;
+}
+#NavBar ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+.nav-link {
+    margin: 0 !important;
+    font-size: .85em !important;
+}
+.nav-link:hover {
+    color: black !important;
+}
+.bg2 {
+    width: 100%;
+    background-color: #D2F1E2;
+    padding: 0;
+    padding-bottom: 2%;   
+}
+.bg1 {
+    width: 100%;
+    background-color: white;
+    padding: 0;
+}
+#started, .left01 a.btn {
+    background-color: #1DBF73;
+    color: white !important;
+    border-radius: 20px;
+    padding: 10px 25px;
+    text-align: center;
+    transition-duration: .5s;
+}
+#started:hover, .left01 a.btn:hover {
+    background-color: white;
+    color: #1DBF73 !important;
+    border-radius: 20px;
+    padding: 10px 25px;
+    text-align: center;
+    border: 1px solid #1DBF73;
+}
+div#header {
+    background-image: url(../images/header.png);
+    background-position: center;
+}
+h3.display-4 {
+    font-weight: 700;
+    word-spacing: 3px;
+    color: white;
+}
+a.h5, div.h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.f_content {
+    font-size: 14px;
+}
+.f_content ul li {
+    list-style: none;
+}
+.f_content > a.nav-link {
+    padding: 2% auto;
+}
+.f_content > a.nav-link:hover {
+    padding: 2% auto;
+    color: white !important;
+}
+#accordion {
+    background-color: #262727;
+    box-shadow: 5px 5px 3px #222;
+    margin: auto;
+    padding-left: 3%;
+}
+footer ul {
+    padding: 0;
+}
+footer a {
+    text-decoration: none;
+    color: #d9d9d9;
+    text-align: left;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+.follow ul li {
+    display: inline;
+    margin: 2px;
+}
+.fa-facebook, .fa-instagram, .fa-linkedin, .fa-twitter {
+    font-size: 20px;
+    margin: 2px;
+}
+a.h5 > i {
+    float: right;
+    margin-right: 3%;
+}
+footer > .container-fluid {
+    padding: 0;
+}
+footer {
+    background-color: #262727;
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+    margin-top: 25px;
+}
+#eng a {
+    border: 1px solid white;
+    padding: 4px;
+    border-radius: 15px;
+    margin-right: inherit;
+    margin-bottom: 4px;
+    width: 90%;
+}
+#footer {
+    text-align: center;
+}
+#footer > .row, footer .container-fluid > .row {
+    margin: 0 !important;
+}
+#footer ul li {
+    display: inline;
+    text-align: left;
+    margin: 5px;
+}
+#footer ul {
+    margin: 0;
+    padding: 0;
+}
+#chat {
+    display: none;
+    font-size: 30px;
+    float: right;
+    padding: 7px;
+    background-color: #1DBF73;
+    color: white;
+    border-radius: 100%;
+    margin-right: 7%;
+}
+#chat:hover {
+    font-size: 30px;
+    float: right;
+    padding: 7px;
+    background-color: white;
+    color: #1DBF73;
+    border-radius: 100%;
+    margin-right: 7%;
+}
